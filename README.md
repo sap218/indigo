@@ -21,6 +21,6 @@ Don't hesitate to create an issue or make a suggestion!
 
 ###### Todo List
 - [x] Make work via any directory
-- [ ] Improve code
-- [ ] Make Indigo sassy
+- [x] Improve code
+- [x] Make Indigo sassy
 - [ ] Alert user every hour
