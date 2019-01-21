@@ -23,7 +23,7 @@ def main():
     print("\nWelcome to your to-do list for the day.")
     
     print("\nWhenever you are ready, let me know what the plan is...")
-    print(colored("Add more tasks: 'add'\nCompleted some tasks: 'done'\nShut down: 'n'","yellow"))
+    print(colored("Add more tasks: 'add'\nCompleted some tasks: 'done'\nView list: 'view'\nShut down: 'n'","yellow"))
     
     decision = ""
     to_do_list = []
@@ -65,6 +65,18 @@ def main():
                     for item in to_do_list:
                         print("%s:\t%s"% (i,item))
                         i += 1
+        
+        elif decision == "view":
+            if not to_do_list:
+                print(colored("Nothing here at the moment...","grey"))
+            else:
+                print(colored("\n\nHere are your tasks:","green"))
+                i = 0
+                for item in to_do_list:
+                    print("%s:\t%s"% (i,item))
+                    i += 1        
+        else:
+            print(colored("R U OK","magenta"))
                 
 if __name__ == "__main__":
     main()   
