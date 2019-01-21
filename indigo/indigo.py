@@ -48,15 +48,19 @@ def main():
                     print("%s:\t%s"% (i,item))
                     i += 1
         
-        if decision == "done":
-            number = input("Which task number did you complete?\t")
-            to_do_list.pop(int(number))
-            
-            print(colored("\n\nHere are your tasks:","green"))
-            i = 0
-            for item in to_do_list:
-                print("%s:\t%s"% (i,item))
-                i += 1
+        elif decision == "done":
+            if not to_do_list:
+                print("I'm going to say goodbye because you obviously don't know how to run me properly...")
+                decision = 'n'
+            else:
+                number = input("Which task number did you complete?\t")
+                to_do_list.pop(int(number))
+                
+                print(colored("\n\nHere are your tasks:","green"))
+                i = 0
+                for item in to_do_list:
+                    print("%s:\t%s"% (i,item))
+                    i += 1
                 
 if __name__ == "__main__":
     main()   
