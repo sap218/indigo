@@ -56,11 +56,15 @@ def main():
                 number = input("Which task number did you complete?\t")
                 to_do_list.pop(int(number))
                 
-                print(colored("\n\nHere are your tasks:","green"))
-                i = 0
-                for item in to_do_list:
-                    print("%s:\t%s"% (i,item))
-                    i += 1
+                if not to_do_list:
+                    print(colored("\nCOMPLETED!\n","blue"))
+                    decision = 'n'
+                else:
+                    print(colored("\n\nHere are your tasks:","green"))
+                    i = 0
+                    for item in to_do_list:
+                        print("%s:\t%s"% (i,item))
+                        i += 1
                 
 if __name__ == "__main__":
     main()   
