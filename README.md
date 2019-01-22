@@ -1,5 +1,7 @@
 # indigo
-Simple to-do list via Command Line | **Python v3.5** | Author __Samantha C Pendleton__, [Twitter](https://twitter.com/sap218) & [GitHub](https://github.com/sap218)
+Simple, temporary to-do list via Command Line for those short and quick tasks | **Python v3.5** 
+
+Author __Samantha C Pendleton__, [Twitter](https://twitter.com/sap218) & [GitHub](https://github.com/sap218)
 
 ## Installation
 
