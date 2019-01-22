@@ -15,6 +15,17 @@ Simple to-do list via Command Line | **Python v3.5** | Author __Samantha C Pendl
 
 `$ indigo`
 
+**Commands**
+
+```
+$ ...
+Add more tasks: 'add'
+Completed some tasks: 'done'
+View list: 'view'
+Shut down: 'n'
+>>
+```
+
 ## Thank you! :bird:
 
 Don't hesitate to create an issue or make a suggestion!
@@ -22,5 +33,5 @@ Don't hesitate to create an issue or make a suggestion!
 ###### Todo List
 - [x] Make work via any directory
 - [x] Improve code
-- [x] Make Indigo sassy
-- [ ] Alert user every hour
+- [x] Make indigo sassy
+- [ ] Alerts user every hour
