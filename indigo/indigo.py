@@ -54,7 +54,11 @@ def main():
                 decision = 'n'
             else:
                 number = input("Which task number did you complete?\t")
-                to_do_list.pop(int(number))
+                
+                try:
+                    to_do_list.pop(int(number))
+                except IndexError:
+                    print(colored("R U OK","magenta"))
                 
                 if not to_do_list:
                     print(colored("\nCOMPLETED!\n","blue"))
