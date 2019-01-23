@@ -1,7 +1,7 @@
 # indigo
 Command Line to-do list for those quick meetings - if you're like me and you write too slow for fast-speaking people, or your handwriting is too difficult to understand afterwards.
 
-indigo now stores your tasks, remeber to exit (`n`) to save them! 
+indigo now stores your tasks, remeber to exit (`n`) to save them! Please **note**: as I am not an expert, the script may not save tasks if there is a user error. 
 
 Author __Samantha C Pendleton__, [Twitter](https://twitter.com/sap218) & [GitHub](https://github.com/sap218) | **Python v3.5** 
 
