@@ -1,7 +1,9 @@
 # indigo
-Simple, temporary to-do list via Command Line for those short and quick tasks | **Python v3.5** 
+Command Line to-do list for those quick meetings - if you're like me and you write too slow for fast-speaking people, or your handwriting is too difficult to understand afterwards.
 
-Author __Samantha C Pendleton__, [Twitter](https://twitter.com/sap218) & [GitHub](https://github.com/sap218)
+indigo now saves your tasks, remeber to exit (`n`) to save them! 
+
+Author __Samantha C Pendleton__, [Twitter](https://twitter.com/sap218) & [GitHub](https://github.com/sap218) | **Python v3.5** 
 
 ## Installation
 
@@ -36,4 +38,5 @@ Don't hesitate to create an issue or make a suggestion!
 - [x] Make work via any directory
 - [x] Improve code
 - [x] Make indigo sassy
+- [x] Saves tasks
 - [ ] Alerts user every hour
