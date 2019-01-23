@@ -4,6 +4,9 @@
 Created on Mon Jan 21 18:17:10 2019
 @author: samanfa
 """
+import os
+from os import path
+
 from termcolor import colored
 """
 grey
@@ -15,8 +18,24 @@ magenta
 cyan 
 white
 """
+
 def main():
     print("Setting up system...")
+    
+    path = os.path.dirname(__file__)+"/input/tasklist.txt" # directory
+    #idpath = os.path.dirname(__file__)+"/input/tasklist.txt" # directory
+    #path = 'tasklist.txt' # original
+    #path = open(idpath) # original 
+    
+    path_file = open(path) # opening file original
+
+
+    to_do_list = []
+    for line in path_file:
+        to_do_list.append(line.rstrip())
+    path_file.close() # closing file
+    open(path, 'w+').close() # deletes entries from file    
+    
     print(colored("In-di-going...","cyan"))
     print("Set-up ready.\n")
     print(colored("I am Indigo.","cyan"))
@@ -26,7 +45,6 @@ def main():
     print(colored("Add more tasks: 'add'\nCompleted some tasks: 'done'\nView list: 'view'\nShut down: 'n'","yellow"))
     
     decision = ""
-    to_do_list = []
     while decision != 'n':
         decision = input(">>\t")
         
@@ -81,6 +99,11 @@ def main():
                     i += 1        
         else:
             print(colored("R U OK","magenta"))
+            
+        with open(path, 'w') as f: # reopening for writing
+            for item in to_do_list:
+                f.write("%s\n" % (item)) # adding tasks
+        f.close() # closing
                 
 if __name__ == "__main__":
     main()   

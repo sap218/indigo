@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
       name='indigo',
-      version='0.2.1',
+      version='0.3.1',
       description='Command Line to-do list',
       url='https://github.com/sap218/indigo',
-      author='Samanthe C Pendleton',
+      author='Samantha C Pendleton',
       author_email='samanfapendle@outlook.com',
       license='MIT',
       packages=setuptools.find_packages(),
