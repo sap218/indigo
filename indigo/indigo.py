@@ -29,6 +29,7 @@ def main():
     
     path_file = open(path) # opening file original
 
+    print(colored("In-di-going...","cyan"))
 
     to_do_list = []
     for line in path_file:
@@ -36,7 +37,6 @@ def main():
     path_file.close() # closing file
     open(path, 'w+').close() # deletes entries from file    
     
-    print(colored("In-di-going...","cyan"))
     print("Set-up ready.\n")
     print(colored("I am Indigo.","cyan"))
     print("\nWelcome to your to-do list for the day.")
@@ -81,6 +81,8 @@ def main():
                 if not to_do_list:
                     print(colored("\nCOMPLETED!\n","blue"))
                     decision = 'n'
+                elif number == 'n':
+                    print(colored("R U OK","magenta"))
                 else:
                     print(colored("\n\nHere are your tasks:","green"))
                     i = 0
@@ -98,7 +100,7 @@ def main():
                     print("%s:\t%s"% (i,item))
                     i += 1        
         else:
-            print(colored("R U OK","magenta"))
+            print(colored("THX FOR SAVING","magenta"))
             
         with open(path, 'w') as f: # reopening for writing
             for item in to_do_list:

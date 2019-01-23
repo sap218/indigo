@@ -1,3 +1,2 @@
-do worko
-attempt python
-read paper
+random task uno
+random task dos
