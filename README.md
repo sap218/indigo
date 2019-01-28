@@ -13,6 +13,7 @@ Author __Samantha C Pendleton__, [Twitter](https://twitter.com/sap218) & [GitHub
 **Prerequisite**
 
 `$ sudo pip3 install os`
+
 `$ sudo pip3 install termcolor`
 
 **GitClone**
@@ -44,7 +45,7 @@ Shut down:	'n'
 
 Don't hesitate to create an issue or make a suggestion!
 
-Please **note**: if you are to update, indigo, your list may be overwritten!
+Please **note**: if you are to update, your list may be overwritten!
 
 ###### Todo List
 - [x] Make work via any directory
