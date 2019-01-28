@@ -10,6 +10,11 @@ Author __Samantha C Pendleton__, [Twitter](https://twitter.com/sap218) & [GitHub
 
 ## Installation
 
+**Prerequisite**
+
+`$ sudo pip3 install os`
+`$ sudo pip3 install termcolor`
+
 **GitClone**
 
 `$ git clone https://github.com/sap218/indigo.git`
@@ -38,6 +43,8 @@ Shut down:	'n'
 ## Thank you! :bird:
 
 Don't hesitate to create an issue or make a suggestion!
+
+Please **note**: if you are to update, indigo, your list may be overwritten!
 
 ###### Todo List
 - [x] Make work via any directory

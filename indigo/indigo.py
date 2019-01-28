@@ -5,6 +5,7 @@ Created on Mon Jan 21 18:17:10 2019
 @author: samanfa
 """
 import os
+#import easygui
 from termcolor import colored
 """
 grey
@@ -47,7 +48,8 @@ def viewing(to_do_list):
 
 ##################################################################
 
-def adding(decision, ans, to_do_list):
+def adding(decision, to_do_list):
+    ans = ""
     while ans != "n":
         print(colored("\nNote: when you have finished entering tasks, type: 'n'","red"))
         ans = input("Please enter task:\t")
@@ -113,21 +115,22 @@ def main():
     while decision != 'n':
         decision = input(">>\t")
         
-        ans = "" # for adding
-        
+        #ans = "" # for adding
+
+        #easygui.msgbox("You've been away for a while - have you completed a task during that time?", title="Completed a Task?")         
+
         if decision == "help":
             helping()
         
         elif decision == "add":
-            decision, to_do_list = adding(decision, ans, to_do_list)
+            decision, to_do_list = adding(decision, to_do_list)
         
         elif decision == "done":
             decision, to_do_list = completing(decision, to_do_list)
         
         elif decision == "view":
-            viewing(to_do_list)
-            
-            
+            viewing(to_do_list)           
+
         elif decision == 'n':
             print(colored("THX FOR SAVING","magenta"))
             
