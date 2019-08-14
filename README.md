@@ -1,8 +1,8 @@
 # indigo
 
-A to-do list managed via the command line, aimed as an alternative to handwriting and elaborate software.
+For those quick meetings, on the 'go'. A to-do list managed via the command line, aimed as an alternative to handwriting and elaborate software. 
 
-For those quick meetings: instead of writing too slow with those fast-speaking individuals, you can type quick. Or if you're like me and your handwriting is too difficult to understand afterwards.
+Instead of writing too slow with those fast-speaking individuals, you can type quick. Or if you're like me and your handwriting is too difficult to understand afterwards, you can type your notes on the 'go'.
 
 indigo now stores your tasks, remeber to exit (`n`) to save them! Please **note**: as I am not an expert, the script may not save tasks if there is a user error. 
 
@@ -41,7 +41,9 @@ Shut down:	'n'
 >>
 ```
 
-## Thank you! :bird:
+## Thank you! :aquarius:
+
+p.s. I'm using aquarius as it looks like writing scribbles...
 
 Don't hesitate to create an issue or make a suggestion!
 
