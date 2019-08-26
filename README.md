@@ -1,5 +1,7 @@
 # indigo
 
+<img src="indigo.png" align="right" alt="indigo logo" width="200">
+
 For those quick meetings, on the 'go'. A to-do list managed via the command line, aimed as an alternative to handwriting and elaborate software. 
 
 Instead of writing too slow with those fast-speaking individuals, you can type quick. Or if you're like me and your handwriting is too difficult to understand afterwards, you can type your notes on the 'go'.
