@@ -50,11 +50,3 @@ p.s. I'm using aquarius as it looks like writing scribbles...
 Don't hesitate to create an issue or make a suggestion!
 
 Please **note**: if you are to update, your list may be overwritten!
-
-###### Todo List
-- [x] Make work via any directory
-- [x] Improve code
-- [x] Make indigo sassy
-- [x] Saves tasks
-- [x] Now set up with functions rather than hard-coded
-- [ ] Alerts user every hour
